@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+#cabecalho {
+    
+    padding: 50px;
+    width: 100%;
+    height: 475px;
+    background-color: #303030;
+    color: #fff;
+}
+
+#cabecalho-titulo {
+    font-size: 60px;
+    margin-top: 206px;
+    margin-left: 62px;
+}
+
+#cabecalho-paragrafo {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 62px;
+}
+
+#secao-menu {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    columns: auto;
+    width: 100%;
+    height: 229px;
+    background-color: #F9F9F9;
+    padding: 10px;
+}
+
+
+#secao-historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+.secao-historia-titulo {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.secao-historia-paragrafo {
+    font-size: 23px;
+    line-height: 34px
+}
+
+
+#secao-formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 638px;
+    background-color: #303030;
+}
+
+
+#secao-formulario-titulo {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+input {
+    display: block;
+    width: 508px;
+    height: 72px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0px;
+}
+
+button {
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    background-color: #C07212;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transition: 0.3s ease;
+    transform: translateY(-7px);
+    background-color: #a45e08;
+    box-shadow: 10px 8px 15px #a85f069b;
+}
