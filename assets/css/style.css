@@ -8,7 +8,6 @@
 }
 
 #cabecalho {
-    
     padding: 50px;
     width: 100%;
     height: 475px;
@@ -47,7 +46,8 @@
     align-items: center;
     gap: 50px;
     width: 100%;
-    height: 100vh;
+    height: auto;
+    padding: 10px;
 }
 
 .secao-historia-titulo {
@@ -106,4 +106,49 @@ button:hover {
     transform: translateY(-7px);
     background-color: #a45e08;
     box-shadow: 10px 8px 15px #a85f069b;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    #cabecalho {
+        padding: 5px;
+        height: auto;
+    }
+
+    #cabecalho-titulo {
+        font-size: 25px;
+        margin-top: 56px;
+        margin-left: 12px;
+    }
+
+    #cabecalho-paragrafo {
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+
+    #secao-menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #secao-historia  {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #secao-historia-img {
+        width: 80%;
+        padding: 5px;
+    }
+
+    #secao-formulario {
+        height: fit-content;
+        padding: 10px;
+    }
+
+    input {
+        width: 100%;
+    }
 }
